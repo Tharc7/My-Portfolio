@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import AnimatedBackground from '../components/AnimatedBackground';
 import CharacterAnimationImg from '../assets/projects/figma/Character Animation/charactor animation.jpg';
 import EcoEcommerceImg from '../assets/projects/figma/Eco E-Commerce/eco e commerce.jpg';
-import TravelBookingImg from '../assets/projects/figma/Travel Booking/travel booking.jpg';
+import SaasImg from '../assets/projects/figma/Saas/saas.jpg';
 import CatImg from '../assets/projects/wordpress/CAT/cat.png';
 import SuntravelImg from '../assets/projects/wordpress/Suntravel/suntravek.png';
 
@@ -30,13 +30,13 @@ const Projects = ({ onViewAll }) => {
   const projects = [
     {
       id: 1,
-      title: 'Travel Booking',
+      title: 'SaaS',
       category: 'Figma',
-      image: TravelBookingImg,
+      image: SaasImg,
       description:
-        'Conversion-focused travel booking flow with hero lead, card grid, and streamlined checkout CTA.',
-      tags: ['UI/UX', 'Travel', 'Responsive'],
-      url: 'https://www.behance.net/gallery/240380633/Travek-Booking',
+        'SaaS marketing site with dashboard storytelling and pricing focus.',
+      tags: ['SaaS', 'Components', 'Marketing'],
+      url: 'https://www.behance.net/gallery/240380693/Saas',
     },
     {
       id: 2,

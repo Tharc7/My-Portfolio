@@ -37,11 +37,12 @@ const Skills = () => {
     'Figma',
     'Adobe XD',
     'Sketch',
-    'InVision',
-    'Principle',
-    'Framer',
-    'Photoshop',
+    'WordPress',
+    'Canva',
+    'Mockup Tools',
+    'Adobe Photoshop',
     'Illustrator',
+    'Capcut',
   ];
 
   const containerVariants = {
